@@ -8,9 +8,13 @@ public class StringUtils {
 
         try {
             double number = Double.parseDouble(str);
-            return number > 0;
+            return number >= 0 && !hasLeadingZeros(str);
         } catch (NumberFormatException e) {
             return false;
         }
+    }
+
+    private static boolean hasLeadingZeros(String str) {
+        return str.length() > 1 && str.charAt(0) == '0';
     }
 }
