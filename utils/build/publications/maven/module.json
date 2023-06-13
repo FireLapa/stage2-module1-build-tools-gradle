@@ -27,11 +27,11 @@
         {
           "name": "utils-1.3.5.jar",
           "url": "utils-1.3.5.jar",
-          "size": 1119,
-          "sha512": "b6f240cb4ab48c7ac293e502ba6d916afdd666fa44c11f8c59a389304f1b9b1e047e01379e5d72a343163b444dc570827cbc7db1051053e10a3078cdb9aa96bb",
-          "sha256": "f42d27f55b4c1d69824b13894a8e5bec4c4d7e501ba2ecfb802e283eadbab25a",
-          "sha1": "27728cd872e1760df8e4c9a72301d383fdf98848",
-          "md5": "2378ac29c307ac17cca070f78845de87"
+          "size": 1159,
+          "sha512": "b40a0015685a9ea5e44a3b3359747aa6d028976b0d08295d10a48271b2446cfe58379f576624a630016a7bbd836cbe1dfa5a4e43860ba63eb74ab18007b9db1a",
+          "sha256": "735074be629ef5eae91fb279a789984b4b73157338ba69761bae30a56e9a6d81",
+          "sha1": "b76a8c0614ecb1b45645a94f7b28215beb1efd44",
+          "md5": "1f0c369572097c4403aff5e8c37ba6a6"
         }
       ]
     },
@@ -57,11 +57,11 @@
         {
           "name": "utils-1.3.5.jar",
           "url": "utils-1.3.5.jar",
-          "size": 1119,
-          "sha512": "b6f240cb4ab48c7ac293e502ba6d916afdd666fa44c11f8c59a389304f1b9b1e047e01379e5d72a343163b444dc570827cbc7db1051053e10a3078cdb9aa96bb",
-          "sha256": "f42d27f55b4c1d69824b13894a8e5bec4c4d7e501ba2ecfb802e283eadbab25a",
-          "sha1": "27728cd872e1760df8e4c9a72301d383fdf98848",
-          "md5": "2378ac29c307ac17cca070f78845de87"
+          "size": 1159,
+          "sha512": "b40a0015685a9ea5e44a3b3359747aa6d028976b0d08295d10a48271b2446cfe58379f576624a630016a7bbd836cbe1dfa5a4e43860ba63eb74ab18007b9db1a",
+          "sha256": "735074be629ef5eae91fb279a789984b4b73157338ba69761bae30a56e9a6d81",
+          "sha1": "b76a8c0614ecb1b45645a94f7b28215beb1efd44",
+          "md5": "1f0c369572097c4403aff5e8c37ba6a6"
         }
       ]
     }
