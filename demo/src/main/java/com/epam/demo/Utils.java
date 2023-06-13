@@ -5,8 +5,8 @@ import com.epam.utils.StringUtils;
 
 public class Utils {
     public static boolean isAllPositiveNumbers(List<String> args) {
-        for (String str : args) {
-            if (!StringUtils.isPositiveNumber(str)) {
+        for (String arg : args) {
+            if (!StringUtils.isPositiveNumber(arg)) {
                 return false;
             }
         }

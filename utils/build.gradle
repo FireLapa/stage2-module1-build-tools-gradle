@@ -8,13 +8,18 @@ java {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.commons:commons-lang3:3.10'
 }
 
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId 'com.epam'
+            groupId 'com.epam.utils'
             artifactId 'utils'
             version '1.3.5'
 
@@ -23,11 +28,8 @@ publishing {
     }
 }
 
-dependencies {
-    implementation 'org.apache.commons:commons-lang3:3.10'
-}
-
 jar {
+    archiveFileName = "utils-1.3.5.jar" // Устанавливаем желаемое название JAR-файла
     manifest {
         attributes(
                 'Implementation-Title': 'Utils Library',
