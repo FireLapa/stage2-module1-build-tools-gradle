@@ -30,7 +30,7 @@ publishing {
 }
 
 jar {
-    archiveFileName = "utils-1.3.5.jar" // Устанавливаем желаемое название JAR-файла
+    archiveFileName = "utils-1.3.5.jar"
     manifest {
         attributes(
                 'Implementation-Title': 'Utils Library',

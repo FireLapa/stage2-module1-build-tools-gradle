@@ -5,9 +5,10 @@ public class StringUtils {
         if (str == null || str.isEmpty()) {
             return false;
         }
+
         try {
             double number = Double.parseDouble(str);
-            return number > 0;
+            return number > 0 || (number == 0 && str.charAt(0) == '0');
         } catch (NumberFormatException e) {
             return false;
         }
